@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import Dados01 from './componentes/Dados01';
 import './App.css';
+import Dados02 from './componentes/Dados02';
+import Header from './componentes/Header';
+import Dados03 from './componentes/Dados03';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header />
+        <div className='center'>
+          <Dados01 />
+          <Dados02 />
+          <Dados03 />
+        </div>
     </div>
   );
 }

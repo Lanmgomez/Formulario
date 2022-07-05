@@ -1,0 +1,33 @@
+.cadastro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+  }
+  
+  .form01 label {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .form01 span {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  
+  .sex {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .sex span {
+    padding: 5px;
+  }
